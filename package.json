@@ -1,0 +1,31 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namaste react by chaitanya",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaitanya0319/namaste-react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "chaitanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaitanya0319/namaste-react/issues"
+  },
+  "homepage": "https://github.com/chaitanya0319/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "browswerslist":[
+  "last 2 versions"
+  ]
+}
