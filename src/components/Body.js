@@ -9,11 +9,12 @@ const Body = () => {
 
   useEffect(() => {
     fetchData();
+    console.log("UseEffect called")
   }, []);
 
   const fetchData = async () => {
     const response = await fetch(
-      "https://namastedev.com/api/v1/listRestaurants"
+      "https://corsproxy.io/?url=https://namastedev.com/api/v1/listRestaurants"
     );
     const json = await response.json();
 

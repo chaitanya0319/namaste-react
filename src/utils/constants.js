@@ -1,7 +1,9 @@
 export const CDN_URL=
-"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/"
+"https://kuppanna.com/cdn/shop/articles/jk-ecr.webp?v=1669702253"
 
 export const LOGO_URL="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png";
+
+export const RestaurantList="https://corsproxy.io/?url=https://namastedev.com/api/v1/listRestaurants"
 
 
 
