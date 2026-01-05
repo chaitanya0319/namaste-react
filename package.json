@@ -20,7 +20,12 @@
   },
   "homepage": "https://github.com/chaitanya0319/namaste-react#readme",
   "devDependencies": {
-    "parcel": "^2.16.3"
+    "assert": "^2.1.0",
+    "console-browserify": "^1.2.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.16.3",
+    "process": "^0.11.10",
+    "util": "^0.12.5"
   },
   "dependencies": {
     "react": "^19.2.3",
