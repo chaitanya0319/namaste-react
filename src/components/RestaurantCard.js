@@ -15,13 +15,13 @@ const RestaurantCard = ({ resData }) => {
 
   return (
     <Link to={`/restaurants/${id}`} className="res-card-link">
-      <div className="res-card">
+      <div className="res-card m-4 p-4 w-56 border border-gray-200">
         <img
-          className="res-logo"
-          alt={name}
+          className="res-logo w-full"
           src={CDN_URL + cloudinaryImageId}
+          alt={name}
         />
-        <h3>{name}</h3>
+        <h3 className="font-bold py-2">{name}</h3>
         <h4>{cuisines.join(", ")}</h4>
         <h4>{avgRating} ⭐</h4>
         <h4>{costForTwo}</h4>
